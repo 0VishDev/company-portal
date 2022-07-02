@@ -1,0 +1,11 @@
+<?php $__env->startSection('content'); ?>
+	<div class="card text-center mt-50">
+	  <div class="card-body">
+	    <h5 class="card-title"><i class="fa fa-exclamation-circle fs-50"></i></h5>
+	    <p class="card-text fs-20">Page Expired</p>
+	  </div>
+	</div>
+<?php $__env->stopSection(); ?>
+
+
+<?php echo $__env->make('errors.layout', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /home/ltqh13w2vszk/public_html/text/resources/views/errors/419.blade.php ENDPATH**/ ?>
